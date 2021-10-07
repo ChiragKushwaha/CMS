@@ -13,8 +13,8 @@ const initialiseData = require("./initial-data");
 const { MongooseAdapter: Adapter } = require("@keystonejs/adapter-mongoose");
 const PROJECT_NAME = "Eka Care Website";
 const adapterConfig = {
-  mongoUri:
-    "mongodb+srv://admin:zgfYvvjjDZcMQhKs@cluster0.r5uot.mongodb.net/tinderdb?retryWrites=true&w=majority",
+  //put uri here
+  mongoUri: "",
 };
 
 const keystone = new Keystone({
